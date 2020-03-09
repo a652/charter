@@ -1,11 +1,11 @@
 title = "Charter's Blog"
 baseURL = "https://stoic-morse-b7375b.netlify.com"
-languageCode = "zh-cn"
+languageCode = "en-us"
 theme = "ananke"
 themesDir = "themes"
 
 MetaDataFormat = "yaml"
-DefaultContentLanguage = "zh-cn"
+DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
