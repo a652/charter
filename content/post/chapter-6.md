@@ -3,7 +3,7 @@ date: 2017-04-14T11:25:05-04:00
 description: "Esmeralda"
 featured_image: "/images/esmeralda.jpg"
 tags: []
-title: "Chapter VI: Esmeralda"
+title: "Chapter VI: Esmeralda加入中文"
 disable_share: false
 ---
 We are delighted to be able to inform the reader, that during the whole of
@@ -17,6 +17,8 @@ procession of fools quit the hall amid great uproar. The throng rushed
 eagerly after them. “Good,” he said to himself, “there go all the
 mischief-makers.” Unfortunately, all the mischief-makers constituted the
 entire audience. In the twinkling of an eye, the grand hall was empty.
+
+中文-中文
 
 To tell the truth, a few spectators still remained, some scattered, others
 in groups around the pillars, women, old men, or children, who had had
