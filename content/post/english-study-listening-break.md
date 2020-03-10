@@ -1,6 +1,9 @@
 ---
 title: "[听课笔记]英语学习秘籍之突破听力"
 date: 2020-03-10T10:41:04+08:00
+draft: false
+tags: ["学习笔记", "英语"]
+categories: [""]
 ---
 
 > [课程地址](https://www.beiwaiclass.com/user/ui.do?method=courseStudy&productId=1899&parProductId=0&userId=600848)

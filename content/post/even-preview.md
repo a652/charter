@@ -10,6 +10,7 @@ weight: 10
 contentCopyright: MIT
 mathjax: true
 autoCollapseToc: true
+hiddenFromHomePage: true
 
 ---
 

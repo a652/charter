@@ -2,6 +2,7 @@
 title: "JS Flowchart Diagrams"
 date: 2015-03-04T21:57:50+08:00
 draft: false
+hiddenFromHomePage: true
 
 flowchartDiagrams:
   enable: true
