@@ -1,7 +1,6 @@
 ---
-title: "English Study Listening Break"
+title: "英语学习秘籍之突破听力"
 date: 2020-03-10T10:41:04+08:00
-draft: true
 ---
 
 # 英语学习秘籍之突破听力
@@ -11,7 +10,7 @@ draft: true
 ## 听力步骤及泛听要点
 
 步骤：
-- 泛听(VOA special, 当背景音乐听没用，抓住message，教材选择标准：第一遍听懂60%-70%)
+- 泛听
 - 精听
 - 泛听
 - 跟读
@@ -19,5 +18,7 @@ draft: true
 ### 泛听
 
 当背景音乐听没用
+
 抓住message
+
 教材选择标准：第一遍听懂60%-70% (VOA special)
