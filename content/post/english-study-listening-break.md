@@ -67,6 +67,11 @@ Bad boy ->  Ba~~d~~ boy  只做动作不发音
 | t | d |
 | p | b |
 
+ 清 | 浊 
+ -- | -- 
+ k | g 
+ t | d 
+ p | b 
 S后面:  Study  Student  Sky  Sport  Spy
 
 ex:  Experience  Expert  Expensive
