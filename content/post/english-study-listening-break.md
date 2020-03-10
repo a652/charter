@@ -36,7 +36,7 @@ date: 2020-03-10T10:41:04+08:00
 口音ACCENTS
 
 | 英音 | 美音 | 举例 |
-| ---- | ---- | ---- |
+| :---- | :---- | :---- |
 | /a:/ | /æ/ | fast |
 | /ɔ/ | /ɑ/ | hot pot |
 | r | /r/卷舌音 | beer |
@@ -67,11 +67,6 @@ Bad boy ->  Ba~~d~~ boy  只做动作不发音
 | t | d |
 | p | b |
 
- 清 | 浊 
- -- | -- 
- k | g 
- t | d 
- p | b 
 S后面:  Study  Student  Sky  Sport  Spy
 
 ex:  Experience  Expert  Expensive
