@@ -1,7 +1,7 @@
 ---
 title: "go-redis 实践中遇到的一个坑"
 date: 2021-05-28T15:22:48+08:00
-draft: true
+draft: false
 tags: ["go"]
 categories: [""]
 ---
