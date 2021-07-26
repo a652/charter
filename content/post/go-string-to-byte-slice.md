@@ -25,9 +25,9 @@ runtime error: slice bounds out of range [:64] with capacity 0
 
 两个条件碰到一起导致了这次panic的发生：
 
-1. '*(*[]byte)(unsafe.Pointer(&uid))' 这种转换方式产生了一个length大于0但是capacity等于0的byte slice。
+1. `*(*[]byte)(unsafe.Pointer(&uid))` 这种转换方式产生了一个length大于0但是capacity等于0的byte slice。
 
-2. 这个产生的byte slice的长度大于等于64，在'md5.Sum()'方法中的'd.Write(data)'逻辑中，遇到了'p[:n]'这样的slice表达式
+2. 这个产生的byte slice的长度大于等于64，在`md5.Sum()`方法中的`d.Write(data)`逻辑中，遇到了`p[:n]`这样的slice表达式
 
 ```go
 func (d *digest) Write(p []byte) (nn int, err error) {
@@ -65,7 +65,7 @@ func (d *digest) Write(p []byte) (nn int, err error) {
 }
 ```
 
-根据go官方对'a[:n]'这种表达式的描述，对于array和string类型来说，中括号中索引的取值范围为"0 <= low <= high <= len(a)" ；然而对于slice类型来说，索引的上限是slice的cap(a)而不是length。
+根据go官方对`a[:n]`这种表达式的描述，对于array和string类型来说，中括号中索引的取值范围为`0 <= low <= high <= len(a)` ；然而对于slice类型来说，索引的上限是slice的cap(a)而不是length。
 
 > For arrays or strings, the indices are in range if 0 <= low <= high <= len(a), otherwise they are out of range. For slices, the upper index bound is the slice capacity cap(a) rather than the length. 
 
@@ -111,7 +111,7 @@ func bar(u string){
 
 ### 正确的高性能转换方式
 
-借助reflect的'StringHeader'和'SliceHeader'.
+借助reflect的`StringHeader`和`SliceHeader`.
 
 ```go
 func string2byteslice(s string) []byte {
@@ -126,8 +126,8 @@ func string2byteslice(s string) []byte {
 }
 ```
 
+参考：
+
 > 1. [golang unsafe and uintptr pointers](https://www.programmersought.com/article/57634222415/)
-
 > 2. [golang slice expressions](https://golang.org/ref/spec#Slice_expressions)
-
 > 3. [golang中\[\]byte与string转换](https://segmentfault.com/a/1190000037679588)
