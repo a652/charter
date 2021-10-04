@@ -1,5 +1,5 @@
 ---
-title: "Python Parse Url Domain"
+title: "python 提取url中的主域名"
 date: 2021-10-04T23:23:52+08:00
 draft: false
 tags: ["python"]
