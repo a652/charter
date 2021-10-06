@@ -30,25 +30,25 @@ categories: ["文章迁移"]
 # 直播时长分布
 本文的数据是在下午16点多进行的抓取，此时各个房间的直播时长分布如下：
 
-![直播时长](http://upload-images.jianshu.io/upload_images/2249252-cb3e4bd3917766ba.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![直播时长](/images/live-period.png)
 
 可以看出有很多房间是刚开播半个小时以内，开播时间在半个小时到两个小时这个区间的房间分布比较均匀。
 
 # 主播等级分布
 
-![用户等级分布](http://upload-images.jianshu.io/upload_images/2249252-f0c10581b5211288.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![用户等级分布](/images/user-level.png)
 
 在4、5、6这三个等级的用户居多，高等级的玩家为极少数。这可能也折射出在一直播平台上面多为平民玩家。
 
 # 主播地域分布
 
-![主播地域分布](http://upload-images.jianshu.io/upload_images/2249252-1e0c58e6a3b682b2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![主播地域分布](/images/liver-region.png)
 
 主播人数最多的前五个城市分别为：北京、上海、大连、深圳、成都，杭州和广州紧随其后。基本都集中在一二线城市。
 
 # 主播类型
 
-![主播类型分布](http://upload-images.jianshu.io/upload_images/2249252-2f1fba50632b4089.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![主播类型分布](images/liver-type.png)
 
 普通类型的主播占据了多数，这与前边的主播等级分布相一致，印证了平民玩家的说法。
 
