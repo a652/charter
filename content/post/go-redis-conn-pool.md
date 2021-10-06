@@ -3,7 +3,7 @@ title: "go-redis 连接池的实现"
 date: 2020-06-15T11:36:16+08:00
 draft: false
 tags: ["go"]
-categories: [""]
+categories: ["技术"]
 ---
 
 > 基于版本v7.4.0
