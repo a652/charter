@@ -3,7 +3,7 @@ title: "一直播首页热门直播列表的分析"
 date: 2021-10-06T22:28:09+08:00
 draft: false
 tags: ["yizhibo", "data analysis"]
-categories: ["文章迁移"]
+categories: ["文章迁移", "数据分析"]
 ---
 
 
