@@ -3,7 +3,7 @@ title: "用electron得到请求页面时XHR的ResponseBody"
 date: 2021-10-07T11:09:29+08:00
 draft: false
 tags: ["electron"]
-categories: ["技术"]
+categories: ["技术", "文章迁移"]
 ---
 
 > 原文链接：https://www.jianshu.com/p/e31228f17416
