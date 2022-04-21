@@ -8,8 +8,11 @@ categories: ["技术"]
 
 
 > 基础环境：
+>
 > M1 MacBook Pro Monterey 12.3.1
+>
 > Java azul-1.8.0_322
+>
 > xxl-job v2.3.0
 
 
